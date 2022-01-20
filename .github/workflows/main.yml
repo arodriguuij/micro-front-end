@@ -4,12 +4,12 @@ on:
   pull_request:
   push:
     branches:
+      - main
       - master
-# removed the Paths option
 
 defaults:
   run:
-    working-directory: packages/container # before : packages/container, but just in my case only
+    working-directory: packages/container 
 
 jobs:
   build:
