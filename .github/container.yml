@@ -9,7 +9,7 @@ on:
 
 defaults:
   run:
-    working-directory: container # before : packages/container, but just in my case only
+    working-directory: packages/container # before : packages/container, but just in my case only
 
 jobs:
   build:
